@@ -1,0 +1,48 @@
+.dot_row{
+    display: flex;
+}
+
+.dot_gap_50{
+    gap: 50px;
+}
+
+.dot_pr-50{
+    padding-right: 50px;
+}
+
+.dot_br-1{
+    border-right: 1px solid #ccc;
+}
+
+form.checkout p#kennitala_field>span{
+    position: relative;
+}
+
+form.checkout p#kennitala_field>span input#kennitala_lookup{
+    position: absolute;
+    right: 0px;
+    line-height: normal;
+}
+
+p.dot_status{
+    color: orange;
+    background: black;
+    padding-left: 12px;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.dot_head{
+    background: white;
+    padding: 8px;
+    border-bottom: 2px solid #ddd; 
+}
+
+.dot-note{
+    background: #aaa;
+    color: white;
+}
+
+#dot_dk_container input[type="number"], #dot_dk_container input[type="text"]{
+height: auto;}
